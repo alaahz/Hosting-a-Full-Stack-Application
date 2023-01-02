@@ -15,10 +15,9 @@ Database URI: postgresql://postgres:password@udagram.c5okwf63s1k9.us-east-1.rds.
 - Elastic Beanstalk: 
 The backend (Udagram-Api) is hosting on AWS Elastic Beanstalk service (EBS). Udagram-Api application will convert the application to zip file. This zip will upload to S3 bucket and the EBS will extract the application and run the Udagram-Api.
 
-EB URL: http://udagram-env-2.eba-ajwnc32q.us-east-1.elasticbeanstalk.com/
 
 - S3 Bucket:
 
 The frontend (Udagram-frontedn) is built and hosting on AWS S3 bucket. The S3 bucket must be public. From the URL that will create when upload the frontend the user can open the application.
 
-Bucket URL: http://udagram-dexter.s3-website-us-east-1.amazonaws.com/home
+Fronend URL: http://udagram-alaa.s3-website-us-east-1.amazonaws.com/home

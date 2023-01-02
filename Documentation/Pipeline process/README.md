@@ -9,9 +9,7 @@
 
 2-	The GitHub account must be connected to CircleCi account and Circleci follows the project and set the environment variables.
 
-Note: To add environment variables, click on project settings > environment variables > add environment variables
-(https://i.ibb.co/0fmW1Cp/Pipeline-process-Diagram.png)
-
+Note: To add environment variables, click on project settings > environment variables > add environment variables.
 
 3-	GitHub repository triggers the CircleCI.
 
