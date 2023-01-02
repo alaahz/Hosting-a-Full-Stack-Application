@@ -10,7 +10,6 @@
 - RDS:
 The database PostgreSQL is hosting on AWS RDS. So, Udagram-Api uses AWS RDS to stores and retrieves information.
 
-Database URI: postgresql://postgres:password@udagram.c5okwf63s1k9.us-east-1.rds.amazonaws.com/udagram
 
 - Elastic Beanstalk: 
 The backend (Udagram-Api) is hosting on AWS Elastic Beanstalk service (EBS). Udagram-Api application will convert the application to zip file. This zip will upload to S3 bucket and the EBS will extract the application and run the Udagram-Api.
